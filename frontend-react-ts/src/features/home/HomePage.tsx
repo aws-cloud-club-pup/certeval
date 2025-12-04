@@ -101,7 +101,7 @@ const styles = {
 	},
 	alfImg: {
 		display: 'block',
-		width: 'clamp(50%, 40vw, 100%)',
+		width: 'clamp(100%, 40vw, 100%)',
 		filter: 'drop-shadow(0 18px 40px rgba(12, 0, 32, 0.6))',
 		animation: 'alf-rise 1.25s ease-out forwards',
 	},
