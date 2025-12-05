@@ -1,0 +1,41 @@
+.app-shell {
+	min-height: 100vh;
+	padding: 24px clamp(16px, 5vw, 48px) clamp(16px, 4vh, 32px);
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+}
+
+.app-nav {
+	width: min(1200px, 100%);
+	margin: 0 auto;
+	background: rgba(12, 1, 32, 0.85);
+	border: 1px solid rgba(255, 255, 255, 0.14);
+	border-radius: 999px;
+	padding: 14px clamp(16px, 4vw, 32px);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.app-nav__brand {
+	font-size: clamp(1rem, 2vw, 1.25rem);
+	font-weight: 600;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+}
+
+.app-main {
+	width: min(1200px, 100%);
+	margin: 32px auto 0;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+}
+
+@media (max-width: 768px) {
+	.app-nav {
+		flex-direction: column;
+	}
+}
